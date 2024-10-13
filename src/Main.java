@@ -9,21 +9,21 @@ public class Main {
         System.out.println("Задача 2. Три массива распечатать:");
         for (int index = 0; index < arr1.length; index++) {
             if (index == arr1.length - 1) {
-                System.out.println(arr1[index] + ".");
+                System.out.println(arr1[index]);
                 break;
             }
             System.out.print(arr1[index] + ",");
         }
         for (int index = 0; index < arr2.length; index++) {
             if (index == arr2.length - 1) {
-                System.out.println(arr2[index] + ".");
+                System.out.println(arr2[index]);
                 break;
             }
             System.out.print(arr2[index] + ",");
         }
         for (int index = 0; index < arrMarina.length; index++) {
             if (index == arrMarina.length - 1) {
-                System.out.println(arrMarina[index] + ".");
+                System.out.println(arrMarina[index]);
                 break;
             }
             System.out.print(arrMarina[index] + ",");
@@ -31,21 +31,21 @@ public class Main {
         System.out.println("Задача 3. Три массива распечатать в обратном порядке:");
         for (int index = arr1.length - 1; index >= 0; index--) {
             if (index == 0) {
-                System.out.println(arr1[index] + ".");
+                System.out.println(arr1[index]);
                 break;
             }
             System.out.print(arr1[index] + ",");
         }
         for (int index = arr2.length - 1; index >= 0; index--) {
             if (index == 0) {
-                System.out.println(arr2[index] + ".");
+                System.out.println(arr2[index]);
                 break;
             }
             System.out.print(arr2[index] + ",");
         }
         for (int index = arrMarina.length - 1; index >= 0; index--) {
             if (index == 0) {
-                System.out.println(arrMarina[index] + ".");
+                System.out.println(arrMarina[index]);
                 break;
             }
             System.out.print(arrMarina[index] + ",");
